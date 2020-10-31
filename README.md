@@ -13,3 +13,9 @@ Compile the vulnerable source with various buffer overflow protections disabled:
 
 * **-m32**: Compiles as a 32-bit binary
 * **-g**: Adds symbols for easier debugging
+
+### Running the exploit
+
+Simple call the vulnerable binary using our exploit output:
+
+`./overflow $(./exploit.py)`
